@@ -20,7 +20,7 @@ All agents have explicit tool-allowlists; skills follow Anthropic's SKILL.md con
 ### Option A — Bulk copy (takes 10 seconds)
 
 ```bash
-git clone https://github.com/workmailan8n-hash/btw-agents-pack.git
+git clone https://github.com/btw-hash/btw-agents-pack.git
 cp btw-agents-pack/agents/*.md ~/.claude/agents/
 cp -r btw-agents-pack/skills/* ~/.claude/skills/
 ```
