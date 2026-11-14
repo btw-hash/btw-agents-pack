@@ -2,8 +2,7 @@
 
 **37 Claude Code subagents + 17 skills.** Battle-tested in BTW Studio's production pipeline. MIT licensed. Copy-paste to install.
 
-Live catalog with search: **[agents.btw.studio](https://agents.btw.studio)**
-Studio that ships them: **[btw-studio.fly.dev](https://btw-studio.fly.dev)**
+Studio that ships them: **[btwstudio.dev](https://btwstudio.dev)**
 
 ## What's inside
 
@@ -27,9 +26,9 @@ cp -r btw-agents-pack/skills/* ~/.claude/skills/
 
 Restart Claude Code. Agents become available to the `Agent` tool; skills are invokable via `/<name>`.
 
-### Option B — Cherry-pick via the catalog
+### Option B — Cherry-pick
 
-Browse **[agents.btw.studio](https://agents.btw.studio)**, click an agent, copy the install snippet, paste into your `~/.claude/agents/<name>.md`.
+Open `agents/` or `skills/`, pick a file and copy it into `~/.claude/agents/<name>.md` (or `~/.claude/skills/<name>/`).
 
 ## Agents (37)
 
@@ -79,7 +78,7 @@ Idea
                 └─→ devops-automator → deploy
 ```
 
-Invoked as one command via `/waterfall`. See real case studies on **[btw-studio.fly.dev/notes](https://btw-studio.fly.dev/notes)**.
+Invoked as one command via `/waterfall`.
 
 ## Contributing
 
